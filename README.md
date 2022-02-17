@@ -19,7 +19,7 @@ vagrant ssh
 cd kafka
 bin/kafka-console-consumer.sh --topic quickstart-events --bootstrap-server 192.168.33.13:9092
 **_________________________________________________________________________________**
-# 3. ouvrir un troisième terminal ( ce sera la vm Spark)
+# 3. Ouvrir un troisième terminal ( ce sera la vm Spark)
 cd Big-Data-1st-project\spark
 vagrant ssh
 password: (le mdp lors de la création de la vm)
